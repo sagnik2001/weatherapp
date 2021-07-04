@@ -45,7 +45,7 @@ if("geolocation"in navigator)
      })
  }
  function displayWeather(){
-   iconElem.innerHTML=`<img src="icons/${weather.iconId}.png"/>`;
+   iconElem.innerHTML=`<img src="${weather.iconId}.png"/>`;
    tempvalElem.innerHTML=`${weather.temperature.value}°<span>C</span>`;
    tempdescElem.innerHTML=weather.description;
    locaElem.innerHTML=`${weather.city},${weather.country}`;
